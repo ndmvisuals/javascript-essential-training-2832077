@@ -21,4 +21,13 @@ const backpack = {
   },
 };
 
+const computer = {
+  name: "dell xps17",
+  screenSize: 17,
+};
+
+var query = "pocketNum";
+
 console.log("The backpack object:", backpack);
+console.log("The pocketNum value", backpack[query]);
+console.log("My computer: ", computer);
